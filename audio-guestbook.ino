@@ -33,8 +33,8 @@
 // DEFINES
 // Define pins used by Teensy Audio Shield
 #define SDCARD_CS_PIN    10
-#define SDCARD_MOSI_PIN  7
-#define SDCARD_SCK_PIN   14
+#define SDCARD_MOSI_PIN  11  //7  11 Teensy 4 with a RevD audio board
+#define SDCARD_SCK_PIN   13  //14  13 Teensy 4 with a RevD audio board
 int sd_cs_pin = BUILTIN_SDCARD;
 
 // And those used for inputs
