@@ -7,7 +7,6 @@ speakervol 0.51
 beepvol 0.11
 greetingvol 0.51
 playvol 0.9
-volname My Audio Guestbook
+volname AudioGuestbook
 sgtladdr 0
-maxrec 120000
-
+maxrec 300000
