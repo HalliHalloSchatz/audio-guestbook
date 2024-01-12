@@ -1,12 +1,12 @@
-hookpin 2
+hookpin 0
 hookidle 1
 playpin 1
 playidle 1
-micgain 38
-speakervol 0.51
+micgain 5
+speakervol 1.0
 beepvol 0.11
-greetingvol 0.51
-playvol 0.9
+greetingvol 1.0
+playvol 1.0
 volname AudioGuestbook
 sgtladdr 0
 maxrec 300000
