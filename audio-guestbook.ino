@@ -170,6 +170,8 @@ void getSettings(void)
 
     do
     {
+      Serial.println("gbkcfg.txt found, using configfile settings");
+      
       int got = frec.readBytesUntil('\n',buffer,sizeof buffer - 1);
       if (0 == got)
         break;
